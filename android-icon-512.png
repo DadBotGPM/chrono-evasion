@@ -1,0 +1,37 @@
+<!-- Save this as android-icon-generator-512.html and open in browser -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Android Icon Generator 512</title>
+</head>
+<body>
+    <canvas id="canvas" width="512" height="512"></canvas>
+    <button onclick="generateIcon()">Generate Android Icon</button>
+    <script>
+        function generateIcon() {
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Background
+            ctx.fillStyle = '#0b0f14';
+            ctx.fillRect(0, 0, 512, 512);
+            
+            // Text
+            ctx.fillStyle = '#00ffaa';
+            ctx.font = 'bold 280px Arial, sans-serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('CE', 256, 300);
+            
+            // Download
+            const link = document.createElement('a');
+            link.download = 'android-icon-512.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+        
+        // Generate on load
+        generateIcon();
+    </script>
+</body>
+</html>
