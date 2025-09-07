@@ -2,49 +2,31 @@
   "name": "Chrono Evasion: Young's Gun",
   "short_name": "Chrono Evasion",
   "description": "A 4D spatial-temporal dodge-'em-up. Shift time, learn signatures, and survive.",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0b0f14",
   "theme_color": "#0b0f14",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%230b0f14'/%3E%3Ctext x='50%25' y='65%25' fill='%2300ffaa' font-family='Arial, sans-serif' font-size='100' font-weight='bold' text-anchor='middle'%3ECE%3C/text%3E%3C/svg%3E",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/svg+xml"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230b0f14'/%3E%3Ctext x='50%25' y='65%25' fill='%2300ffaa' font-family='Arial, sans-serif' font-size='280' font-weight='bold' text-anchor='middle'%3ECE%3C/text%3E%3C/svg%3E",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg+xml"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' fill='%230b0f14'/%3E%3Ctext x='50%25' y='65%25' fill='%2300ffaa' font-family='Arial, sans-serif' font-size='100' font-weight='bold' text-anchor='middle'%3ECE%3C/text%3E%3C/svg%3E",
       "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "/favicon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/svg+xml"
     }
   ],
   "categories": ["games", "arcade", "strategy"],
   "orientation": "portrait",
   "lang": "en-US",
   "dir": "ltr",
-  "scope": "/",
-  "screenshots": [
-    {
-      "src": "/screenshot1.png",
-      "sizes": "800x600",
-      "type": "image/png",
-      "description": "Gameplay screenshot showing time evasion mechanics"
-    }
-  ],
-  "prefer_related_applications": false,
-  "display_override": ["window-controls-overlay"],
-  "edge_side_panel": {
-    "preferred_width": 400
-  }
+  "scope": "./",
+  "prefer_related_applications": false
 }
